@@ -1,0 +1,32 @@
+﻿- Pour utiliser le plugin il faut aller sur https://api-developer.swisscom.com/ , créer un compte et générer une clé API
+
+Ensuite vous pouvez télécharger le plugin et l'activer
+
+image::../images/Swissms_icon.png[align="center"]
+
+
+Créer un nouvel équipement
+
+image::../images/Swissms_screenshot1.png[align="center"]
+
+
+En cliquant sur "ajouter un équipement"
+
+image::../images/Swissms_screenshot2.png[align="center"]
+
+Sur l’équipement vous pouvez dorénavant configurer les informations
+
+image::../images/Swissms_screenshot3.png[align="center"]
+
+-Nom: Par exemple, configurer le nom du destinataire
+-APi Key: la clé API que vous avez créé
+-Numéro d'appel:  le numéro qui va recevoir le SMS
+
+Ensuite vous pouvez sélectionner la commande pour l'utiliser dans un scénario
+
+image::../images/Swissms_screenshot4.png[align="center"]
+
+Et paramétrer un message prédéfini dans un scénario avec le message dans "valeur"
+
+
+image::../images/Swissms_screenshot5.png[align="center"]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>Swissms</id>
+    <name>Swiss SMS</name>
+    <description>Plugin pour envoyer des Sms via swisscom</description>
+    <icon>fa fa-mobile</icon>
+    <licence>AGPL</licence>
+    <author>zyg0m4t1k</author>
+    <installation>Aucune</installation>
+    <require>1.9</require>
+    <category>communication</category>
+</info>
+
