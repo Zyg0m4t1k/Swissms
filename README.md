@@ -1,0 +1,2 @@
+# Swissms
+Plugin pour Jeedom
