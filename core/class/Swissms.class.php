@@ -96,8 +96,6 @@ class SwissmsCmd extends cmd {
         }
         
         
-//		$Swissms = new Swissms2($this->getConfiguration('sender'), $this->getConfiguration('receiver'), 'Jeedom');
-//		$Swissms->send($_options['title'], $_options['message']);
 		self::sendSMS($this->getConfiguration('sender'), $this->getConfiguration('receiver'), $_options['slider'], $this->getConfiguration('api_key'));
 		
     }
