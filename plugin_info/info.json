@@ -1,0 +1,8 @@
+{
+	"id" : "Swissms",
+	"name" : "Swiss SMS",
+	"licence" : "AGPL",
+	"author" : "zyg0m4t1k",
+	"require" : "2.4",
+	"category" : "communication"
+}
