@@ -5,7 +5,7 @@ Ensuite vous pouvez télécharger le plugin et l'activer
 image::../images/Swissms_icon.png[align="center"]
 
 
-Créer un nouvel équipement
+Erstellen Sie ein neues Gerät
 
 image::../images/Swissms_screenshot1.png[align="center"]
 
@@ -30,3 +30,5 @@ Et paramétrer un message prédéfini dans un scénario avec le message dans "va
 
 
 image::../images/Swissms_screenshot5.png[align="center"]
+
+En cas de soucis , voir sur le forum
