@@ -11,4 +11,4 @@
 
 0.2:: Possibilité de changer le cron dans la configuration du plugin(10 minutes par défaut).Amélioration graphique. Ajout des actégories pour personnalisé le widget. Doc.
 
-0.1:: Mise à disposition du plugin sur le market
+0.1:: Verfügbarkeit des Plug-In auf dem Markt
