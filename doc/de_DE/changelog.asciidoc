@@ -1,4 +1,6 @@
 ﻿[horizontal]
+4.06.2017:: Suppression du bootstrap switch
+
 1.1:: Ajout d'une commande qui lancera le ping pour forcer la mise à jour de l'état
 
 1.0:: Ajout de la configuration de la commande.
