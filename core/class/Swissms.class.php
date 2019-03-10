@@ -29,13 +29,13 @@ class SwissmsCmd extends cmd {
 
 
     /*     * ***********************Methode static*************************** */
-
+//curl -X POST https://api.swisscom.com/messaging/sms -H 'SCS-Version: 2' -H 'client_id: {YourClientID}' -H 'Content-Type: application/json' -H 'Accept: application/json'  -d '{"to": "{YourPhoneNumber}", "text": "YourMessageText."}'
 	public function sendSMS($sender,$mobile_number,$msg,$apiKey){ 
 			$sender = 'moi';
-			$curl = curl_init("https://api.swisscom.com/v1/messaging/sms/outbound/tel%3A%2B41".$sender."/requests");
-			$header = array( "client_id: ".$apiKey."", "Accept: application/json; charset=utf-8", "Content-Type: application/json; charset=utf-8" );
+			$curl = curl_init("https://api.swisscom.com/messaging/sms");
+			$header = array( "client_id: " .$apiKey, "SCS-Version: 2", "Accept: application/json", "Content-Type: application/json" );
 			curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
-			$curl_post_data = array( 'outboundSMSMessageRequest' => array( 'address' => array( 0 => 'tel:'.$mobile_number.'', ), 'senderAddress' => 'tel:'.$sender.'', 'outboundSMSTextMessage' => array( 'message' => ''.$msg.'', ), ), );
+			$curl_post_data = array("from" => "Swisscom","to"=>$mobile_number,"text"=>$msg );
 			
 			// Encode the post data in JSON. 
 			$json_post_data = json_encode($curl_post_data); 
@@ -67,10 +67,10 @@ class SwissmsCmd extends cmd {
 			// Check for any errors and show error on screen if there is an issue 
 			$http_response_code = $curl_info['http_code']; 
 			
-			 if(curl_error($curl) || $http_response_code != 200) { 
+			 if(curl_error($curl) || $http_response_code != 201) { 
 					$curl_response = print_r($curl_response,true); 
 					$alert_error = 'Error ' . $http_response_code . ' ' . curl_error($curl) . ' API server response: ' . $curl_response;
-					log::add('Swisssms','debug','erreur :' . $alert_error);
+					log::add('Swisssms','error','erreur :' . $alert_error);
 			} else { 
 				log::add('Swisssms','debug','envoie: ' . htmlspecialchars($mobile_number));
 
