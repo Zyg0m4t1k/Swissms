@@ -1,9 +1,0 @@
-﻿== Swiss SMS
-
-=== Präsentation
-Dieses Plugin ermöglicht es Ihnen, SMS über den SWISSCOM Betreiber zu versenden. 
-
-'''
-=== Installation/Konfiguration
-include::configuration.asciidoc[]
-
