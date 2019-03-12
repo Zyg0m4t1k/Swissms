@@ -1,45 +1,45 @@
 Description 
 ===========
 
-Ce plugin permet d'envoyer des SMS via l'opérateur SWISSCOM
+This plugin allows to send SMS via the operator SWISSCOM
 
 
 Installation
 =============
 
-- Pour utiliser le plugin il faut aller [ici](https://docs.developer.swisscom.com/api-service-offerings/smart-messaging.html) , et suivre la procédure pour créer un compte et générer une clé API.
+- To use the plugin you should go [here](https://docs.developer.swisscom.com/api-service-offerings/smart-messaging.html) , and follow the procedure to create an account and generate a API key.
 
 
 
-Utilisation
+Usage
 ===========
 
-Créer un nouvel équipement en cliquant sur le +
+Create a new device by clicking on the +
 
 
-En cliquant sur "ajouter un équipement" ou sur le "+"
+By clicking on "Add device" or on the "+"
 
 ![Swissms_screenshot2](../images/Swissms_screenshot2.png)
 
-Sur l’équipement vous pouvez dorénavant configurer les informations
+On the device you can now configure information
 
 ![Swissms_screenshot3](../images/Swissms_screenshot3.png)
 
-**Nom** : Par exemple, configurer le nom du destinataire
+**Name**: For example, set the recipient's name
 
-**Customer Key** : la clé API que vous avez créé
+**Customer Key** : the API key you have generate
 
-**Numéro d'appel**:  le numéro qui va recevoir le SMS
+**Call number**: the number that will receive the SMS
 
-Ensuite vous pouvez sélectionner la commande pour l'utiliser dans un scénario
+Then you can select the command and use it in a scenario
 
 ![Swissms_screenshot4](../images/Swissms_screenshot4.png)
 
-Et paramétrer un message prédéfini dans un scénario avec le message dans "valeur"
+And setup a predefined message in a scenario with message in the "value"
 
 ![Swissms_screenshot5](../images/Swissms_screenshot5.png)
 
-En cas de soucis , voir sur le forum ==> [ici](https://www.jeedom.com/forum/viewtopic.php?f=140&t=6142)
+In case of issues, see the forum ==> [here] (https://www.jeedom.com/forum/viewtopic.php?f=140&t=6142)
 
 
 
