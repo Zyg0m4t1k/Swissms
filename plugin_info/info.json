@@ -3,7 +3,7 @@
 	"name" : "Swiss SMS",
 	"licence" : "AGPL",
 	"author" : "zyg0m4t1k",
-	"require" : "3.2",
+	"require" : "3.3.24",
 	"category" : "communication",
 	"changelog" : "https://zyg0m4t1k.github.io/Swissms/#language#/changelog",
 	"documentation" : "https://zyg0m4t1k.github.io/Swissms/#language#/",
