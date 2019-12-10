@@ -1,3 +1,8 @@
+04.11.2019
+===
+
+- Confirmation compatibilité v4/buster
+
 07.09.2019
 ===
 
